@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <!-- The main body of text is located here, I did not put it into the head because that seemed redundant to what we were trying to accomplish. -->
+
   <body>
     <h1>TEXT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis augue sed elementum dapibus. Vivamus quis laoreet magna, eu condimentum diam. Nulla tristique sem ac nunc laoreet hendrerit. Sed mattis ligula fringilla, volutpat ex vitae, iaculis nunc. Donec eu viverra massa. Ut eu lacinia leo, vitae aliquam tellus. Proin vel dui mattis, pellentesque diam vitae, efficitur erat. Pellentesque neque sem, tincidunt non leo eget, efficitur finibus tellus. Nulla vel sem id magna lacinia eleifend. Donec odio lectus, ultrices sagittis augue id, pellentesque gravida lectus. Etiam ac lacus lorem. Praesent dictum dolor non magna pharetra ultrices. Integer blandit imperdiet ullamcorper. Morbi cursus sed ligula ut convallis. Donec sed mi metus. Donec quis eros ut nisl ultricies malesuada.
@@ -12,8 +14,13 @@
       </p></em>
     <p><strong>Vestibulum</strong> Mauris pharetra, augue id tempus viverra, est justo tristique velit, et venenatis turpis velit et purus. Duis sodales bibendum dui, quis interdum lacus tincidunt et. Integer porta scelerisque laoreet. Suspendisse nec leo posuere nulla varius porta non blandit libero. Nunc porttitor in tortor nec vulputate. In convallis sapien non volutpat congue. Sed rhoncus efficitur tempus. Nam vitae lacus pharetra, lacinia turpis vel, malesuada dui. Morbi lobortis commodo dapibus. Donec bibendum lacus eget purus placerat commodo. Aliquam congue imperdiet velit vitae interdum. Nulla sollicitudin enim eu nulla varius, at venenatis mauris eleifend.
     <h1> TABLE </h1>
+    <!-- styling area for the table, I made it six columns wide and then adjusted certain stylings using CSS to make it clean -->
     <style>
-      table, th, td, tr {
+      table {
+        box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+      }
+
+      th, td, tr {
         text-align: center;
         padding: 10px;
       }
@@ -23,6 +30,8 @@
         height: auto;
       }
     </style>
+
+    <!-- begin table data -->
     <table>
       <tr><th colspan="6">Scores by Quarter</th></tr>
       <tr>
@@ -64,8 +73,7 @@
             <td><b>32</b></td>
           </tr>
     </table>
-
-
+<!-- this area is focused on utilizing an image, link, and understanding ordered / underordered lists. -->
     <h1>LIST</h1>
     <ol style="list-style-type:disc;">
       <li><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DEN"><br><a href="https://www.denverbroncos.com/">Denver Broncos</a></li>
@@ -84,7 +92,7 @@
             </ol>
 
 
-
+<!-- form section: all the buttons are useless as indicated in the form action field.  -->
     <h1>FORM</h1>
     <form action="/notGoingAnywhereSorry.html">
   <label for="fname">First:</label>
