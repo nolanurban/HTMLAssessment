@@ -48,6 +48,8 @@ h4 + ul > li:nth-child(2){
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  text-shadow: 2px 2px gray;
+
 }
 #checkbox-grid {
   list-style-type: none;
